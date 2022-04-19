@@ -1,9 +1,10 @@
 import React from 'react'
+import '../App.css'
 
 function Meme() {
   return (
       <main>
-        <form ClassName="form">
+        <div className="form">
             <input 
                 className='form--input' 
                 type="text" 
@@ -13,10 +14,10 @@ function Meme() {
                 type="text" 
                 placeholder="bottom text"/>
             <button 
-                className="form-btn">
+                className="form--btn">
                 Get a new meme image 🖼
             </button>
-        </form>
+        </div>
     </main>
   )
 }
