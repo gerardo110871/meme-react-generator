@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+
 }
 
 .header {
@@ -25,4 +25,8 @@
 .header--project {
   font-size:12px;
   font-weight: 500;
+}
+.form {
+  display:grid;
+  grid-template: 40px 40px / 1fr 1fr;
 }
